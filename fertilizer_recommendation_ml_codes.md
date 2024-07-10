@@ -148,7 +148,7 @@ X_train = sc.transform(X_train)
 X_test=sc.transform(X_test)
 ```
 ## loading model and evaluation metrices
-```
+```python
 from sklearn.linear_model import LogisticRegression
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
