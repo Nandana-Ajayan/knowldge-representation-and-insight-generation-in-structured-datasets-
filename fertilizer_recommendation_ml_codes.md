@@ -132,8 +132,8 @@ counter
 X_train, X_test, y_train, y_test = train_test_split(X.values, y, test_size = 0.3, random_state = 0)
 print(f"Train Data: {X_train.shape}, {y_train.shape}")
 print(f"Train Data: {X_test.shape}, {y_test.shape}")
-
 ```
+```python
 from sklearn.preprocessing import MinMaxScaler
 mx = MinMaxScaler()
 X_train = mx.fit_transform(X_train)
@@ -141,6 +141,7 @@ X_test = mx.transform(X_test)
 ```
 
 ```python
+
 from sklearn.preprocessing import StandardScaler
 sc = StandardScaler()
 sc.fit(X_train)
